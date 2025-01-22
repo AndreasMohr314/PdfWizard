@@ -1,0 +1,30 @@
+# IntelliJ IDEA spezifisch
+.idea/
+*.iml
+*.iws
+out/
+
+# Maven spezifisch
+target/
+dependency-reduced-pom.xml
+build.log
+mvnw*
+!mvnw.cmd
+
+# Betriebssystem-spezifisch
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# System-Dateien
+*.class
+*.jar
+*.war
+*.ear
+
+# Sonstige IDEs
+.vscode/
+.eclipse/
