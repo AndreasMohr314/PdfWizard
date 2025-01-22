@@ -50,16 +50,18 @@ PDF Wizard is a JavaFX application that allows users to edit PDF files. Key feat
 src/
 ├── main/
 │   ├── java/
+│   │   ├── core/
+│   │   │   ├── Main.java
 │   │   ├── ui/
 │   │   │   ├── MainUI.java
+│   │   │   ├── UIManager.java
 │   │   ├── pdf/
 │   │   │   ├── PdfService.java
 │   │   │   ├── PdfServiceImpl.java
-│   │   ├── util/
-│   │   │   ├── FileManager.java
 │   ├── resources/
 │       ├── style.css
-│       ├── icon.png
+│       ├── wizard.png
+│       ├── wizard.ico
 ```
 
 ---
@@ -73,7 +75,8 @@ src/
 
 ---
 
-## Example Screenshot
+## Example
+![Example](src/main/resources/example.PNG)
 
 **Main Window:**
 - Buttons and input fields are centered.
